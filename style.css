@@ -1,0 +1,70 @@
+@font-face {
+    font-family: FrauncesLight;
+    src: url(Fraunces-Light.ttf)
+}
+
+@font-face {
+    font-family: FrauncesRegular;
+    src: url(Fraunces-Regular.ttf)
+}
+
+@font-face {
+    font-family: FrauncesMedium;
+    src: url(Fraunces-Medium.ttf)
+}
+
+@font-face {
+    font-family: FrauncesSemiBold;
+    src: url(Fraunces-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: FrauncesBold;
+    src: url(Fraunces-Bold.ttf)
+}
+
+@font-face {
+    font-family: FrauncesBlack;
+    src: url(Fraunces-Black.ttf)
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1.4px solid black;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav a{
+    font-family: FrauncesSemiBold;
+}
+  
+.nav-links-left a{
+    padding-right: 0.8rem;
+}
+
+.nav-links-right a{
+    padding-left: 0.8rem;
+}
+
+.nav-links-left a:hover, .nav-links-right a:hover{
+    color:;
+}
+
+.nav-logo a{
+    font-family: FrauncesBold;
+    font-size: 1.5rem;
+    letter-spacing: 0.06rem;
+}
+
+
+
+
