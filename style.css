@@ -28,23 +28,40 @@
     src: url(Fraunces-Black.ttf)
 }
 
+@font-face {
+    font-family: FuturaBold;
+    src: url(FuturaPTBold.otf)
+}
+
+@font-face {
+    font-family: FuturaMedium;
+    src: url(FuturaPTMedium.otf)
+}
+
+
 body {
     margin: 0%;
     padding: 0%;
+    background-color: #f8f3ef;
+}
+
+.nav-main-container {
+    
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 2rem 6rem;
-    padding-bottom: 1rem;
-    border-bottom: 1.4px solid black;
+    margin: 2.4rem 6rem 4rem 6rem;
     align-items: center;
     cursor: pointer;
 }
 
 nav a{
     font-family: FrauncesSemiBold;
+    color: #434343;
+    font-size: 1.1rem;
+    letter-spacing: 0.034em;
 }
   
 .nav-links-left a{
@@ -55,16 +72,108 @@ nav a{
     padding-left: 0.8rem;
 }
 
-.nav-links-left a:hover, .nav-links-right a:hover{
-    color:;
+.nav-links-left a:hover{
+    color: #67bfed;
+}
+
+
+.nav-links-right a:hover {
+    color: #9bcb81;
 }
 
 .nav-logo a{
     font-family: FrauncesBold;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: 0.06rem;
 }
 
+main {
+    margin: 3rem 6rem;
+}
+
+main img{
+    width: 100%;
+}
+
+.work-section h2, .about-section h2{
+    font-family: FrauncesSemiBold;
+    letter-spacing: 0.01rem;
+    font-size: 1.6rem;
+    margin: 0%;
+    padding: 0.8rem 0rem 0.2rem 0rem;
+    width: 100%;
+}
+
+.mywork-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a-images {
+    padding-right: 1.1rem;
+}
+
+.b-images{
+    padding: 0rem 1.1rem;
+}
+
+.c-images{
+    padding-left: 1.1rem;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.images img{
+    padding: 1.1rem 0rem;
+}
+
+
+
+
+.about-image-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-me-bio{
+    width: 50%;
+}
+
+.about-me-bio p{
+    font-family: FuturaMedium;
+    font-size: 1.6rem;
+    margin: 0%;
+    padding: 0.6rem 0rem;
+    letter-spacing: 0.01rem;
+    line-height: 2rem;
+}
+
+.about-portrait img{
+    max-width: 400px;
+}
+
+
+
+
+
+
+footer {
+    display: flex; 
+    justify-content: space-between;
+    font-family: FrauncesMedium;
+}
+
+
+.footer-links{
+    display: flex;
+    align-items: center;
+}
 
 
 
