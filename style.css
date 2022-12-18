@@ -43,6 +43,7 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: #f8f3ef;
+    color: #434343;
 }
 
 .nav-main-container {
@@ -76,7 +77,6 @@ nav a{
     color: #67bfed;
 }
 
-
 .nav-links-right a:hover {
     color: #9bcb81;
 }
@@ -95,9 +95,9 @@ main img{
     width: 100%;
 }
 
-.work-section h2, .about-section h2{
+.work-section h2, .about-section h2, .contact-section h2{
     font-family: FrauncesSemiBold;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.012rem;
     font-size: 1.6rem;
     margin: 0%;
     padding: 0.8rem 0rem 0.2rem 0rem;
@@ -132,9 +132,6 @@ main img{
     padding: 1.1rem 0rem;
 }
 
-
-
-
 .about-image-bio {
     display: flex;
     flex-direction: row;
@@ -142,12 +139,12 @@ main img{
 }
 
 .about-me-bio{
-    width: 50%;
+    width: 74%;
 }
 
-.about-me-bio p{
+.about-me-bio p, .contact-section p{
     font-family: FuturaMedium;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: 0%;
     padding: 0.6rem 0rem;
     letter-spacing: 0.01rem;
@@ -155,12 +152,50 @@ main img{
 }
 
 .about-portrait img{
-    max-width: 400px;
+    border-radius: 50%;
+    max-width: 280px;
+}
+
+.shop-section h1{
+    font-family: FrauncesBold;
+    font-size: 2rem;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    padding: 2.6rem 0rem;
+}
+
+.shop-section{
+    background-color: #f4e7d7;
+    margin-top: 3rem;
+    height: 500px;
+}
+
+hr {
+    border: none;
+    border-bottom: 4px solid #f4e7d7;
 }
 
 
+.work-description span:hover{
+    font
+}
 
 
+.contact-section h2{
+    padding-top: 1.4rem;
+}
+
+.contact-section p{
+    margin: 0%;
+    padding: 0rem 0rem;
+}
+
+.contact-section h3{
+    font-family: FrauncesBold;
+    letter-spacing: 0.06rem;
+    padding: 0.4rem 0rem;
+    margin: 0%;
+}
 
 
 footer {
@@ -169,11 +204,24 @@ footer {
     font-family: FrauncesMedium;
 }
 
-
 .footer-links{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.footer-links a{
+    padding-left: 0.6rem;
+}
+
+footer p{
+    font-family: FuturaMedium;
+    color: #434343;
+    font-size: 1.2rem;
+    letter-spacing: 0.034em;
+}
+
+
 
 
 
