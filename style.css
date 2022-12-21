@@ -95,7 +95,7 @@ main img{
     width: 100%;
 }
 
-.work-section h2, .about-section h2, .contact-section h2{
+.work-section h2, .about-section h2, .contact-section h2, .shop-section h2{
     font-family: FrauncesSemiBold;
     letter-spacing: 0.012rem;
     font-size: 1.6rem;
@@ -156,18 +156,24 @@ main img{
     max-width: 280px;
 }
 
-.shop-section h1{
-    font-family: FrauncesBold;
-    font-size: 2rem;
-    letter-spacing: 0.04rem;
-    text-align: center;
-    padding: 2.6rem 0rem;
+.about-section{
+    padding-top: 1rem;
 }
 
+
 .shop-section{
-    background-color: #f4e7d7;
     margin-top: 3rem;
     height: 500px;
+}
+
+.shop-paints {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop-paints img{
+    width: 30%;
 }
 
 hr {
@@ -217,8 +223,6 @@ footer p{
     font-size: 1.2rem;
     letter-spacing: 0.034em;
 }
-
-das
 
 
 
