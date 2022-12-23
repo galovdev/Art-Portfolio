@@ -38,16 +38,11 @@
     src: url(FuturaPTMedium.otf)
 }
 
-
 body {
     margin: 0%;
     padding: 0%;
     background-color: #f8f3ef;
     color: #434343;
-}
-
-.nav-main-container {
-    
 }
 
 nav {
@@ -56,6 +51,7 @@ nav {
     margin: 2.4rem 6rem 4rem 6rem;
     align-items: center;
     cursor: pointer;
+    background-color: #9bcb81;
 }
 
 nav a{
@@ -104,9 +100,14 @@ main img{
     width: 100%;
 }
 
+.work-section{
+    margin: 0rem 6rem;
+}
+
 .mywork-images{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .a-images {
@@ -119,17 +120,16 @@ main img{
 
 .c-images{
     padding-left: 1.1rem;
-
 }
 
 .images {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .images img{
     padding: 1.1rem 0rem;
+    width: 100%;
 }
 
 .about-image-bio {
@@ -157,13 +157,11 @@ main img{
 }
 
 .about-section{
-    padding-top: 1rem;
+    margin: 1rem 6rem;
 }
 
-
 .shop-section{
-    margin-top: 3rem;
-    height: 500px;
+    margin: 3rem 6rem;
 }
 
 .shop-paints {
@@ -180,10 +178,11 @@ main img{
 hr {
     border: none;
     border-bottom: 4px solid #f4e7d7;
+    margin: 0rem 6rem;
 }
 
-.work-description span:hover{
-    font
+.contact-section {
+    margin: 0rem 6rem;
 }
 
 .contact-section h2{
@@ -198,14 +197,17 @@ hr {
 .contact-section h3{
     font-family: FrauncesBold;
     letter-spacing: 0.06rem;
-    padding: 0.4rem 0rem;
+    padding: 0.4rem 0rem 1rem 0rem;
     margin: 0%;
 }
 
 footer {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
     font-family: FrauncesMedium;
+    padding: 1.8rem 0rem;
+    margin: 0rem 6rem;
 }
 
 .footer-links{
@@ -215,7 +217,9 @@ footer {
 }
 
 .footer-links a{
-    padding-left: 0.6rem;
+    padding-left: 0.8rem;
+    margin: 0%;
+    cursor: pointer;
 }
 
 footer p{
@@ -223,5 +227,5 @@ footer p{
     color: #434343;
     font-size: 1.2rem;
     letter-spacing: 0.034em;
+    margin: 0%;
 }
-uh
