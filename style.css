@@ -51,7 +51,6 @@ nav {
     margin: 2.4rem 6rem 4rem 6rem;
     align-items: center;
     cursor: pointer;
-    background-color: #9bcb81;
 }
 
 nav a{
@@ -84,7 +83,7 @@ nav a{
 }
 
 main {
-    margin: 3rem 6rem;
+    margin: 3rem 6rem 0.8rem 6rem;
 }
 
 main img{
@@ -96,7 +95,7 @@ main img{
     letter-spacing: 0.012rem;
     font-size: 1.6rem;
     margin: 0%;
-    padding: 0.8rem 0rem 0.2rem 0rem;
+    padding: 0.6rem 0rem 0.1rem 0rem;
     width: 100%;
 }
 
@@ -104,10 +103,29 @@ main img{
     margin: 0rem 6rem;
 }
 
+/* .masonry {
+    -webkit-column-count: 3;
+    -moz-column-count: 6;
+    column-count: 3;
+    column-gap: 2rem;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.item {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+}
+
+.item img{
+    max-width: 100%;
+} */
+
 .mywork-images{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-grow: 1;
 }
 
 .a-images {
@@ -125,11 +143,12 @@ main img{
 .images {
     display: flex;
     flex-direction: column;
+    width: 33%;
+    max-height: 100%;
 }
 
 .images img{
     padding: 1.1rem 0rem;
-    width: 100%;
 }
 
 .about-image-bio {
@@ -157,11 +176,11 @@ main img{
 }
 
 .about-section{
-    margin: 1rem 6rem;
+    margin: 1rem 6rem 0rem 6rem;
 }
 
 .shop-section{
-    margin: 3rem 6rem;
+    margin: 0rem 6rem;
 }
 
 .shop-paints {
@@ -217,9 +236,10 @@ footer {
 }
 
 .footer-links a{
-    padding-left: 0.8rem;
+    padding-left: 1rem;
     margin: 0%;
     cursor: pointer;
+    color:#434343;
 }
 
 footer p{
